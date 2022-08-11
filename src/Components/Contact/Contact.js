@@ -1,9 +1,9 @@
 import React from 'react';
-
+import contactLogo from '../../Images/contact.png'
 const Contact = () => {
     return (
-        <div>
-            <h1>Contact</h1>
+        <div className="flex justify-center mt-10">
+            <img src={contactLogo} alt="" />
         </div>
     );
 };

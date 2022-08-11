@@ -1,9 +1,10 @@
 import React from 'react';
+import aboutLogo from '../../Images/About.png'
 
 const About = () => {
     return (
-        <div>
-            <h1>About</h1>
+        <div className="flex justify-center mt-24">
+            <img src={aboutLogo} alt="" />
         </div>
     );
 };
